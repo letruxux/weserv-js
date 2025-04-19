@@ -196,3 +196,5 @@ export class ImageWeserv {
     return `${this.baseUrl}?${params.toString()}`;
   }
 }
+
+export { FilterOption, FitOption, ImageWeservOptions, MaskType };
